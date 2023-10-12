@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Karla;
+    src: url(../font/Karla-Regular.ttf);
+}
+body{
+    display:  grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-color:#F0F8FF ;
+    width: 1440px;
+    font-family: Karla;
+    font-size: 16px;
+}
+.body{
+    display: grid;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #FFFFFF; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+       
+
+}
+.body .top{
+    padding: 50px;
+    background-color: #F0FFFF;
+    border-radius: 10px ;
+
+
+
+}
+.body .top .header{
+
+}
+.body .top .description :nth-child(2){
+    color: hsl(203, 11%, 77%);
+
+   
+
+}
+.body .top .description :nth-child(1){
+    margin-bottom: 20px;
+    display: block;
+    color: hsl(71, 73%, 54%);
+    font-size: 1.5em;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+.bottom .left{
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px  0px  0px 10px ;
+
+
+}
+.bottom .left .header{
+
+}
+.bottom .left .info{
+
+}
+.bottom .left .singUp{
+
+}
+.bottom .right{
+    background-color: hsl(179, 31%, 58%);
+    border-radius: 0px  0px  10px 0px ;
+
+
+}
+.body .right .header{
+
+}
+.body .right .description{
+    max-width: 70%;
+
+}
+.footer{
+    justify-self: last baseline;
+    justify-self: center;
+}
+
